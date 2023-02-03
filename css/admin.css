@@ -581,7 +581,8 @@ a:focus {
 }
 
 .topbar.navbar-light .navbar-nav .nav-item .nav-link {
-  color: #fafafa;
+  /* color: #fafafa; */
+  color: #6e707e;
   transition: all .3s ease-in-out;
   -webkit-transition: all .3s ease-in-out
 }
@@ -597,7 +598,8 @@ a:focus {
 }
 
 .bg-navbar {
-  background-color: #6777ef
+  /* background-color: #6777ef */
+  background-color: #fff
 }
 
 .sidebar {
@@ -1206,6 +1208,18 @@ a:focus {
 
 .sidebar-dark.toggled #sidebarToggle::after {
   color: rgba(255, 255, 255, .5)
+}
+
+.btn-action {
+  width: 32px;
+  margin-left:10px;
+  background-color: transparent;
+  border: none;
+}
+
+.btn-action:focus {
+  border: none;
+  outline: none;
 }
 
 .btn-icon-split {
