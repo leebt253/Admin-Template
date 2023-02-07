@@ -7,13 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link href="img/logo/logo.png" rel="icon">
-  <title>RuangAdmin - Dashboard</title>
+  <link href="img/logo/favicon.ico" rel="icon">
+  <title>Chang Shop - Dashboard</title>
   <link href="vendor/fontawesome-free/css/all.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="css/admin.bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/admin.css" rel="stylesheet">
-  <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+  <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -22,29 +21,29 @@
     <ul class="navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html" style="background-color: #fff;">
         <div class="sidebar-brand-icon">
-          <img src="img/logo/logo2.png">
+          <img src="img/logo/logo-lite.png">
         </div>
-        <div class="sidebar-brand-text text-gray-700 mx-3">Chang Shop</div>
+        <div class="sidebar-brand-text text-gradient mx-3">Chang Shop</div>
       </a>
       <hr class="sidebar-divider my-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">
+      <li class="nav-item">
+        <a class="nav-link" href="#">
           <i class="fas fa-fw fa-tachometer-alt"></i>
-          <span>Dashboard</span></a>
+          <span class="font-weight-bold">Dashboard</span></a>
       </li>
       <hr class="sidebar-divider">
-      <div class="sidebar-heading text-gray-800">
+      <div class="sidebar-heading">
         Features
       </div>
       <li class="nav-item active">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUsers"
           aria-expanded="true" aria-controls="collapseUsers">
-          <i class="fas fa-user"></i>
-          <span class="text-gray-800">Users</span>
+          <i class="fas fa-user" style="padding-left: 0.2rem;"></i>
+          <span>Users</span>
         </a>
         <div id="collapseUsers" class="collapse show" aria-labelledby="headingUsers" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header text-gray-800">Users Management</h6>
+            <h6 class="collapse-header">Users Management</h6>
             <a class="collapse-item active" href="#">Add new user</a>
             <a class="collapse-item" href="#">Modify user</a>
             <a class="collapse-item" href="#">Delete user</a>
@@ -54,12 +53,12 @@
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseCategories" aria-expanded="true"
           aria-controls="collapseCategories">
-          <i class="fas fa-book"></i>
-          <span class="text-gray-800">Categories</span>
+          <i class="fas fa-book" style="padding-left: 0.2rem;"></i>
+          <span>Categories</span>
         </a>
         <div id="collapseCategories" class="collapse" aria-labelledby="headingForm" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header text-gray-800">Categories Management</h6>
+            <h6 class="collapse-header">Categories Management</h6>
             <a class="collapse-item" href="#">Add new category</a>
             <a class="collapse-item" href="#">Modify category</a>
             <a class="collapse-item" href="#">Delete category</a>
@@ -69,12 +68,12 @@
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBrands" aria-expanded="true"
           aria-controls="collapseBrands">
-          <i class="fas fa-tag"></i>
-          <span class="text-gray-800">Brands</span>
+          <i class="fas fa-tag" style="padding-left: 0.2rem;"></i>
+          <span>Brands</span>
         </a>
         <div id="collapseBrands" class="collapse" aria-labelledby="headingTable" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header text-gray-800">Brands Management</h6>
+            <h6 class="collapse-header">Brands Management</h6>
             <a class="collapse-item" href="#">Add new brand</a>
             <a class="collapse-item" href="#">Modify brand</a>
             <a class="collapse-item" href="#">Delete brand</a>
@@ -84,12 +83,12 @@
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseProducts" aria-expanded="true"
           aria-controls="collapseProducts">
-          <i class="fas fa-socks"></i>
-          <span class="text-gray-800">Products</span>
+          <i class="fas fa-shopping-bag" style="padding-left: 0.2rem;"></i>
+          <span>Products</span>
         </a>
         <div id="collapseProducts" class="collapse" aria-labelledby="headingTable" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header text-gray-800">Products Management</h6>
+            <h6 class="collapse-header">Products Management</h6>
             <a class="collapse-item" href="#">Add new product</a>
             <a class="collapse-item" href="#">Modify product</a>
             <a class="collapse-item" href="#">Delete product</a>
@@ -99,12 +98,12 @@
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseCustomers" aria-expanded="true"
           aria-controls="collapseCustomers">
-          <i class="fas fa-user-tie"></i>
-          <span class="text-gray-800">Customers</span>
+          <i class="fas fa-user-tie" style="padding-left: 0.2rem;"></i>
+          <span>Customers</span>
         </a>
         <div id="collapseCustomers" class="collapse" aria-labelledby="headingTable" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header text-gray-800">Customers Management</h6>
+            <h6 class="collapse-header">Customers Management</h6>
             <a class="collapse-item" href="#">Add new customer</a>
             <a class="collapse-item" href="#">Modify customer</a>
             <a class="collapse-item" href="#">Delete customer</a>
@@ -112,45 +111,45 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="ui-colors.html">
-          <i class="fa-solid fa-cart-shopping-fast"></i>
-          <span class="text-gray-800">Oders</span>
+        <a class="nav-link" href="#">
+          <i class="fas fa-shopping-cart"></i>
+          <span>Oders</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="ui-colors.html">
-          <i class="fa fa-cart-shopping"></i>
-          <span class="text-gray-800">Shipping</span>
+        <a class="nav-link" href="#">
+          <i class="fas fa-shipping-fast"></i>
+          <span>Shipping</span>
         </a>
       </li>
       <hr class="sidebar-divider">
-      <div class="sidebar-heading text-gray-800">
-        Examples
+      <div class="sidebar-heading">
+        Reports
       </div>
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePage" aria-expanded="true"
-          aria-controls="collapsePage">
-          <i class="fas fa-fw fa-columns"></i>
-          <span class="text-gray-800">Pages</span>
-        </a>
-        <div id="collapsePage" class="collapse" aria-labelledby="headingPage" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Example Pages</h6>
-            <a class="collapse-item" href="login.html">Login</a>
-            <a class="collapse-item" href="register.html">Register</a>
-            <a class="collapse-item" href="404.html">404 Page</a>
-            <a class="collapse-item" href="blank.html">Blank Page</a>
-          </div>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="charts.html">
-          <i class="fas fa-fw fa-chart-area"></i>
-          <span class="text-gray-800">Charts</span>
+        <a class="nav-link" href="#">
+          <i class="fas fa-chart-area"></i>
+          <span>Sales</span>
         </a>
       </li>
       <hr class="sidebar-divider">
-      <div class="version text-gray-800" id="version-ruangadmin"></div>
+      <div class="sidebar-heading">
+        Settings
+      </div>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <i class="fas fa-list"></i>
+          <span>Menus</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <i class="fas fa-cog"></i>
+          <span>Settings</span>
+        </a>
+      </li>
+      <hr class="sidebar-divider">
+      <div class="version" id="dashboard-version"></div>
     </ul>
     <!-- Sidebar End -->
     <div id="content-wrapper" class="d-flex flex-column">
@@ -162,18 +161,18 @@
           </button>
           <ul class="navbar-nav ml-auto">
             <!-- Language Selector Start -->
-            <li class="nav-item dropdown no-arrow">
-              <a class="nav-link dropdown-toggle text-dark" href="#" id="userDropdown" role="button" data-toggle="dropdown"
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-gray-800" href="#" id="languageDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-globe fa-fw"></i>
-                <span class="text-dark" style="padding-left:4px;">Eng</span>
+                <span class="text-gray-800" style="padding-left:4px;">Eng</span>
               </a>
-              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="#">
+              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="languageDropdown">
+                <a class="dropdown-item cookier" href="#">
                   <img src="img/flags/us.png" style="padding-right:2px;">
                   English (US)
                 </a>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item cookier" href="#">
                   <img src="img/flags/vi.png" style="padding-right:2px;">
                   Vietnamese
                 </a>
@@ -192,7 +191,7 @@
                 <form class="navbar-search">
                   <div class="input-group">
                     <input type="text" class="form-control bg-light border-1 small" placeholder="What do you want to look for?"
-                      aria-label="Search" aria-describedby="basic-addon2" style="border-color: #3f51b5;">
+                      aria-label="Search" aria-describedby="basic-addon2" style="border-color: #4fabb8;">
                     <div class="input-group-append">
                       <button class="btn btn-primary" type="button">
                         <i class="fas fa-search fa-sm"></i>
@@ -223,7 +222,7 @@
                     </div>
                   </div>
                   <div>
-                    <div class="small text-gray-500">December 12, 2019</div>
+                    <div class="small text-gray-700">December 12, 2019</div>
                     <span class="font-weight-bold">A new monthly report is ready to download!</span>
                   </div>
                 </a>
@@ -234,7 +233,7 @@
                     </div>
                   </div>
                   <div>
-                    <div class="small text-gray-500">December 7, 2019</div>
+                    <div class="small text-gray-700">December 7, 2019</div>
                     $290.29 has been deposited into your account!
                   </div>
                 </a>
@@ -245,11 +244,11 @@
                     </div>
                   </div>
                   <div>
-                    <div class="small text-gray-500">December 2, 2019</div>
+                    <div class="small text-gray-700">December 2, 2019</div>
                     Spending Alert: We've noticed unusually high spending for your account.
                   </div>
                 </a>
-                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                <a class="dropdown-item text-center small text-gray-700" href="#">Show All Alerts</a>
               </div>
             </li>
             <!-- Notification End -->
@@ -274,7 +273,7 @@
                   <div class="font-weight-bold">
                     <div class="text-truncate">Hi there! I am wondering if you can help me with a problem I've been
                       having.</div>
-                    <div class="small text-gray-500">Udin Cilok · 58m</div>
+                    <div class="small text-gray-700">Udin Cilok · 58m</div>
                   </div>
                 </a>
                 <a class="dropdown-item d-flex align-items-center" href="#">
@@ -285,10 +284,10 @@
                   <div>
                     <div class="text-truncate">Am I a good boy? The reason I ask is because someone told me that people
                       say this to all dogs, even if they aren't good...</div>
-                    <div class="small text-gray-500">Jaenab · 2w</div>
+                    <div class="small text-gray-700">Jaenab · 2w</div>
                   </div>
                 </a>
-                <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
+                <a class="dropdown-item text-center small text-gray-700" href="#">Read More Messages</a>
               </div>
             </li>
             <!-- Message End -->           
@@ -300,7 +299,7 @@
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
                 <img class="img-profile rounded-circle" src="img/boy.png" style="max-width: 60px">
-                <span class="ml-2 d-none d-lg-inline text-gray-700 small">Hi, <b>Lee</b><br/>Administrator</span>
+                <span class="ml-2 d-none d-lg-inline text-gray-800 small">Hi, <b>Lee</b><br/>Administrator</span>
               </a>
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
                 <a class="dropdown-item" href="#">
@@ -332,8 +331,8 @@
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
             <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="./">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+              <li class="breadcrumb-item"><a href="./" style="font-size: 14px;">Home</a></li>
+              <li class="breadcrumb-item active" style="font-size: 14px;" aria-current="page">Dashboard</li>
             </ol>
           </div>
 
@@ -429,7 +428,18 @@
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                   <h6 class="m-0 font-weight-bold text-primary">DataTables</h6>
                 </div>
-                <div class="table-responsive p-3">
+                <div class="card-content py-3 align-items-center justify-content-between">
+                  Filter by:
+                  <select class="form-control form-control-sm mb-3" style="width: 200px;">
+                    <option>ID</option>
+                    <option>Name</option>
+                    <option>Age</option>
+                    <option>Height</option>
+                    <option>Place of Birth</option>
+                    <option>Year Active</option>
+                  </select>
+                </div>
+                <div class="table-responsive p-3" style="margin-top: -1.25rem;">
                   <table class="table align-items-center table-flush table-hover" id="dataTable">
                     <thead class="thead-light">
                       <tr>
@@ -572,7 +582,7 @@
                           <button type="button" class="btn-action text-gray-600 mb-1 pl-lg-1" title="Modify"><i class="fas fa-pen"></i></button>
                           <button type="button" class="btn-action text-gray-600 mb-1 pl-lg-1" title="Delete"><i class="fas fa-trash-alt"></i></button>
                         </td>
-                      </tr>               
+                      </tr>                  
                     </tbody>
                   </table>
                 </div>
@@ -630,14 +640,13 @@
   <script src="vendor/jquery-easing/jquery.easing.js"></script>
   <script src="js/admin.js"></script> 
   <!-- Page level plugins -->
-  <script src="vendor/datatables/jquery.dataTables.min.js"></script>
-  <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+  <script src="vendor/datatables/jquery.dataTables.js"></script>
+  <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
 
   <!-- Page level custom scripts -->
   <script>
     $(document).ready(function () {
       $('#dataTable').DataTable(); // ID From dataTable 
-      $('#dataTableHover').DataTable(); // ID From dataTable with Hover
     });
   </script>
 </body>
